@@ -17,7 +17,9 @@ def speed(times,timee,userinput):
 while 1:
     ck=input(" Are you Ready to test.Give yes/no: ")
     if ck=="yes":
-        test=["Technology is the exploration of scientific knowledge to develop tools and techniques to transform the world by improving efficiency in almost everything we do.","Technology is the study of scientific knowledge in order to create tools and processes.","The definition of technology is the application of scientific knowledge for practical purposes or applications."]
+        test=["Technology is the exploration of scientific knowledge to develop tools and techniques to transform the world by improving efficiency in almost everything we do.",
+              "Technology is the study of scientific knowledge in order to create tools and processes.",
+              "The definition of technology is the application of scientific knowledge for practical purposes or applications."]
         test1=r.choice(test)
         print("*****typing test******")
         print(test1)
